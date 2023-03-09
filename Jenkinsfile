@@ -26,7 +26,7 @@ pipeline {
                 
                     sh 'mvn install'
                     sh 'yum install tree -y'
-                    sh 'yum remove tree'
+                    sh 'yum remove tree -y'
                 }
             
         }
