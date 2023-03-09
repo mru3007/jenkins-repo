@@ -25,6 +25,7 @@ pipeline {
             steps {
                 
                     sh 'mvn install'
+                    sh 'yum install tree -y'
                 }
             
         }
